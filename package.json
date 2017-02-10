@@ -1,0 +1,29 @@
+{
+  "name": "fizz-buzz-js",
+  "version": "1.0.0",
+  "description": "This is a fun abstraction that approaches the Fizz Buzz problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhaynes84/FizzBuzzFunJS.git"
+  },
+  "keywords": [
+    "fizzbuzz",
+    "fizz",
+    "buzz",
+    "strategy"
+  ],
+  "author": "Nick H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhaynes84/FizzBuzzFunJS/issues"
+  },
+  "homepage": "https://github.com/nhaynes84/FizzBuzzFunJS#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.1.8"
+  }
+}
