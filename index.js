@@ -7,10 +7,10 @@ import {identifyTheNumberType, logTheNumberDetails} from './services/fizzBuzzSer
  *   Basically all that is happening is the for loop runs and the numbers
  *   get evaluated and logged to the console.
  * */
-const executeService = () => {
-	for (let i = 1; i <= 100; i++) {
+const executeService = (startIndex, stopIndex) => {
+	for (let i = startIndex; i <= stopIndex; i++) {
 		logTheNumberDetails(identifyTheNumberType(i));
 	}
 };
 
-executeService();
+executeService(1, 100);
