@@ -22,6 +22,14 @@ const context = [
 	}
 ];
 
+/**
+ * @function contextFinder
+ * @param {number} number
+ * @description
+ *   This function takes in a number; evaluates it with a strategy
+ *   and returns the appropriate response
+ * @example const result = contextFinder(5); // result is {strategy:buzzStrategy,message:'I am a BUZZ!'}
+ * */
 const contextFinder = (number) => {
 	let response = {};
 
